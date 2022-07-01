@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using MySql.Data.MySqlClient;
+using System;
+using System.IO;
+using System.Data;
+using System.Collections.Generic;
 
 namespace BestBuyPractices
 {
@@ -6,7 +11,7 @@ namespace BestBuyPractices
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
